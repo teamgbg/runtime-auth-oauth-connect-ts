@@ -1,0 +1,22 @@
+{
+	"name": "@teamscala/runtime-auth-oauth-connect",
+	"_generated": {
+		"system": "runtime-auth-oauth-connect",
+		"status": "generated",
+		"edit": "edit src/ — dependencies and exports derive from imports; everything else preserved"
+	},
+	"dependencies": {
+		"@teamscala/db": "*",
+		"@teamscala/db-validation": "*",
+		"@teamscala/encryption": "*",
+		"@teamscala/google-workspace-configure": "*",
+		"@teamscala/runtime-auth-flow-config": "*",
+		"valibot": "*"
+	},
+	"exports": {
+		"./mount-provider-credentials": "./src/mount-provider-credentials.ts",
+		"./mount-provider-credentials.ts": "./src/mount-provider-credentials.ts",
+		"./oauth-connect-flow": "./src/oauth-connect-flow.ts",
+		"./oauth-connect-flow.ts": "./src/oauth-connect-flow.ts"
+	}
+}
