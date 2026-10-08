@@ -16,7 +16,7 @@
 
 import { getAuthSecret, getEncryptionKey } from "@teamscala/runtime-auth-flow-config/configure";
 import { makeServiceRoutingReader } from "@teamscala/db/registry/service-routing";
-import { ServiceRoutingConfigSchema } from "@teamscala/db-validation/registry-schemas/service-routing";
+import { ServiceRoutingConfigSchema } from "@teamscala/registry-schemas/registry-schemas/service-routing";
 
 const { resolveServicePublicUrl } = makeServiceRoutingReader(ServiceRoutingConfigSchema);
 
