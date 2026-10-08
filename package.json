@@ -8,9 +8,9 @@
 	},
 	"dependencies": {
 		"@teamscala/db": "*",
-		"@teamscala/db-validation": "*",
 		"@teamscala/encryption": "*",
 		"@teamscala/google-workspace-configure": "*",
+		"@teamscala/registry-schemas": "*",
 		"@teamscala/runtime-auth-flow-config": "*",
 		"valibot": "*"
 	},
